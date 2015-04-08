@@ -180,7 +180,7 @@ public class JavaForWinBuildService {
 	}
 	
 	public static void main(String[] args) throws ClientProtocolException, IOException, DocumentException{
-		
+		string s;
 		JavaForWinBuildService service = new JavaForWinBuildService();
 		//service.createJob("172.16.3.160","8080","104","https://github.com/ChinasoftMan/AntProject.git");
 		service.buildJob("172.16.3.160","8080","104","build","0");
