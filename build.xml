@@ -14,6 +14,8 @@
 		<delete dir="dist" />
 	</target>
 	<target name="compile" depends="init">
-		<javac srcdir="src" destdir="build/classes"  encoding="UTF-8"/>
+		<javac srcdir="src" destdir="build/classes"  encoding="UTF-8">
+		<classpath refid="compile_lib"/>
+		</javac>
 	</target>
 </project> 
